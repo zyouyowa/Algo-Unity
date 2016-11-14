@@ -1,0 +1,1 @@
+﻿using UnityEngine;using System.Collections;public class Player : MonoBehaviour {    [SerializeField]    protected CardObjectManager cardObjManager;    [SerializeField]    protected GameFlowManager flow;    public virtual IEnumerator Turn(){        yield return null;    }}
